@@ -83,12 +83,14 @@ bash eval_clus.sh
 200 multimodal instruction data are selected [here](https://huggingface.co/datasets/WaltonFuture/InstructionGPT-4).
 
 InstructionGPT-4 is fine-tuned from these 200 selected samples based on pre-trained MiniGPT-4.
-## Acknowledgement
+
+## Related Projects
 
 + [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4) The model architecture of InstructionGPT-4 follows MiniGPT-4. 
 + [LIMA](https://arxiv.org/abs/2305.11206) Our inspiration comes from LIMA: Less Is More for Alignment.
-+ [Alpagasus](https://lichang-chen.github.io/AlpaGasus/) We follow Alpagasus to design the GPT Score.
++ [TinyGPT-V](https://github.com/DLYuanGod/TinyGPT-V) Great work on MLLMs.
 
+## Acknowledgement
 
 If you're using InstructionGPT-4 in your research or applications, please cite using this BibTeX:
 ```bibtex
